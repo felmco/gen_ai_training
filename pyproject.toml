@@ -1,0 +1,36 @@
+[project]
+name = "gen-ai-training"
+version = "0.1.0"
+description = "Curso de Ingeniería de IA Generativa Aplicada"
+requires-python = ">=3.10"
+readme = "README.md"
+dependencies = [
+    "openai>=1.0.0",
+    "langchain>=0.1.0",
+    "langchain-community",
+    "langgraph>=0.1.0",
+    "chromadb>=0.4.0",
+    "python-dotenv>=1.0.0",
+    "pydantic>=2.0.0",
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "n8n-py", 
+    "mcp"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "pytest",
+    "ruff",
+    "black",
+    "ipykernel"
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"

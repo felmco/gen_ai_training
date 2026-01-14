@@ -26,6 +26,7 @@ El curso está dividido en fases progresivas. Cada módulo contiene documentaci�
 *   **[Módulo 2.1: OpenAI API](./02_consumo_modelos_apis/01_openai_api/README.md)** - Chat Completions y Structured Outputs.
 *   **[Módulo 2.2: Integración DeepSeek](./02_consumo_modelos_apis/02_deepseek_integration/README.md)** - Modelos de Razonamiento (R1) y Context Caching.
 *   **[Módulo 2.3: Modelos Locales y Antrópicos](./02_consumo_modelos_apis/03_modelos_locales_antropicos/README.md)** - Ollama y Claude 3.5 Sonnet.
+*   **[Módulo 2.4: Ingeniería de Prompts Avanzada](./02_consumo_modelos_apis/04_prompt_engineering/README.md)** - CoT, Few-Shot y DSPy.
 
 ### [Fase 3: RAG Avanzado (Retrieval Augmented Generation)](./03_rag_avanzado/README.md)
 *   **[Módulo 3.1: Arquitectura RAG](./03_rag_avanzado/01_arquitectura_rag/README.md)** - Pipelines de ingesta y chunking.
@@ -42,6 +43,7 @@ El curso está dividido en fases progresivas. Cada módulo contiene documentaci�
 *   **[Módulo 5.2: OpenAI Swarm](./05_sistemas_agenticos/02_openai_agents_swarm/README.md)** - Patrones de Handoff y multi-agente.
 *   **[Módulo 5.3: Google ADK](./05_sistemas_agenticos/03_google_adk/README.md)** - Agentes empresariales y multimodales.
 *   **[Módulo 5.4: Protocolo A2A](./05_sistemas_agenticos/04_protocolo_a2a/README.md)** - Interoperabilidad Agente-a-Agente.
+*   **[Módulo 5.5: Seguridad y Guardrails](./05_sistemas_agenticos/05_guardrails/README.md)** - Validación de Input/Output y patrones de seguridad.
 
 ### [Fase 6: Automatización Híbrida con n8n](./06_automatizacion_n8n/README.md)
 *   **[Módulo 6.1: Fundamentos n8n](./06_automatizacion_n8n/01_fundamentos_n8n/README.md)** - Webhooks y triggers.
@@ -62,11 +64,11 @@ El curso está dividido en fases progresivas. Cada módulo contiene documentaci�
 ## 🚀 Cómo empezar
 
 1.  Clona este repositorio.
-2.  Crea un entorno virtual:
+3.  Instala las dependencias (usando `uv`):
     ```bash
-    uv venv  # o python -m venv .venv
+    uv sync
     ```
-3.  Navega al módulo que desees estudiar y sigue las instrucciones de su `README.md`.
+4.  Navega al módulo que desees estudiar y sigue las instrucciones de su `README.md`.
 
 ---
 *Generado para el curso de Ingeniería de IA Generativa - 2025*
